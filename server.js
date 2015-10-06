@@ -6,7 +6,7 @@ app.get('/', function(request, response){
 });
 
 app.get('/nickname', function(request, response){
-    response.send('distinct hummingbird');
+    response.send('distinct-hummingbird');
 });
 
 app.listen(process.env.PORT || 4000);
